@@ -16,7 +16,6 @@ public class KafkaDatabaseConsumer {
 
     private final EventService eventService;
 
-    @Autowired
     public KafkaDatabaseConsumer(EventService eventService) {
         this.eventService = eventService;
     }
